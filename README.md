@@ -21,7 +21,7 @@ To run the tests against your API, have your sample API running in your machine 
 docker run -v ${PWD}/Tests:/tests loadimpact/k6 run /tests/test-students.js
 ```
 
-### What routes are tests ?
+### Which routes are tested?
 
 - Students - "api/students"
   - Get list of students (GET) - (api/students)

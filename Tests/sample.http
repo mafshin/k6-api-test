@@ -1,0 +1,10 @@
+GET http://localhost:5000/api/students
+
+### Add user
+POST http://localhost:5000/api/students
+Content-Type: application/json
+
+{
+    "FirstName": "Mohsen",
+    "LastName": "Afshin"
+}
